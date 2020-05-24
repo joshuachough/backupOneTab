@@ -4,7 +4,7 @@ import shutil
 from datetime import datetime
 
 chromedata_path = 'C:/Users/<Username>/AppData/Local/Google/Chrome/User Data/Default/Local Storage/leveldb' # this is your Chrome data path (make sure to replace <Username> with your user's username)
-local_path = '/path/to/backups/folder/' # put your backups folder path here (make sure to include the last backslash /)
+local_path = './backups/' # this is your backups folder path (you can change to anywhere but make sure to include the last backslash /)
 exclude_file = 'LOCK' 
 
 def backup():
