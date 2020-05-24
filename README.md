@@ -8,6 +8,11 @@ This is a python script that will allow you to automatically\* back up and manua
 
 I have used OneTab for years and have saved more than one thousand links. However, one day, I opened up OneTab and all my links were gone. I tried finding a better extension, but I couldn't find one as simple and efficient as OneTab. So, I decided to make a script to automatically back up and manually restore my data.
 
+## This repository includes
+
+- Python script named `backupOneTab.py`
+- A `backups` folder that contains a backup example
+
 ## How to use
 
 1. Clone this repository.
