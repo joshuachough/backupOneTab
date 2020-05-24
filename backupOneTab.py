@@ -37,7 +37,7 @@ def backup():
   
   print('backup complete\n')
 
-def restore(index):
+def restore(index): # index is the index of the backup with 0 being the latest and 1 being the second latest
   # define dest directory
   dest = chromedata_path
 
@@ -75,7 +75,7 @@ def main():
   args = sys.argv[1:]
 
   print()
-  if len(args) == 0:
+  if len(args) == 0: # no args are input
     fn = input('Backup or restore? ').lower()
     print()
     if fn == 'backup':
@@ -86,9 +86,9 @@ def main():
     else:
       print('Error: Function not found')
     print(input('Press \'Enter\' to exit'))
-  elif len(args) > 0 and args[0] == '--backup':
+  elif len(args) > 0 and args[0] == '--backup': # '--backup' arg is input
     backup()
-  elif len(args) > 0 and args[0] == '--restore':
+  elif len(args) > 0 and args[0] == '--restore': # '--restore <int>' args are input
     index = int(args[1])
     restore(index)
 
