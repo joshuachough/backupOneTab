@@ -1,0 +1,11 @@
+__pycache__
+_backups
+_exports
+.vscode
+build
+dist
+extra
+leveldb
+leveldb test
+backupOneTab.exe
+backupOneTab.spec
