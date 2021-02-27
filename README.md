@@ -1,5 +1,7 @@
 # Backup OneTab
 
+> CAUTION: Restoring doesn't really work right now due to recent OneTab changes, so please refer to [this issue](https://github.com/itsjoshthedeveloper/backupOneTab/issues/1). I am working on a fix.
+
 This is a python script that will allow you to automatically\* back up and manually restore your OneTab extension Chrome data.
 
 \*With Windows Task Scheduler
