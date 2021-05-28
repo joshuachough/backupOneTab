@@ -3,8 +3,12 @@ import os
 import shutil
 from datetime import datetime
 
-chromedata_path = 'C:/Users/<Username>/AppData/Local/Google/Chrome/User Data/Default/Local Storage/leveldb' # this is your Chrome data path (make sure to replace <Username> with your user's username)
-local_path = './backups/' # this is your backups folder path (you can change to anywhere but make sure to include the last backslash /)
+ # the OneTab settings folder in your Chrome data path.
+ # INFO: Make sure to replace <Username> with your user's username!
+chromedata_path = 'C:/Users/<Username>/AppData/Local/Google/Chrome/User Data/Default/Local Extension Settings/chphlpgkkbolifaimnlloiipkdnihall'
+
+# this is your backups folder path (you can change to anywhere but make sure to include the last backslash /)
+local_path = './backups/' 
 exclude_file = 'LOCK' 
 
 def backup():
